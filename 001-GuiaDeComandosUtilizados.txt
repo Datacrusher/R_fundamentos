@@ -1,0 +1,53 @@
+#Guia de comando R
+
+#tecla de atalho
+Ctrl + L  =  Limpa console
+
+#Mostra o diretorio atual de trabalho
+>getwd()
+
+#configura o diretório de trabalho para o caminho informado entre as aspas.
+#Pode ser acessada graficamente no R studio pelo menu : \Session\Set working directory \To Source File Location
+#\imgs\img001.png
+>setwd("C:/GIT/R_fundamentos")
+
+#Salva sua area atual de trabalho conforme nome e caminho desejado.
+#Pode ser acessada graficamente no R studio pelo menu : \Session\save WorkSpace as...
+#\imgs\img002.png
+> save.image("C:/GIT/R_fundamentos/Area_trabalho_1.RData")
+
+
+#Criar um Script
+#\imgs\img003.png
+>
+
+#Mostra o tipo do Objeto/variavel
+>class(x)
+
+#Convertendo Variaveisvem inteiro
+>is.integer(variavel)
+
+#função Raiz quadrada
+>sqrt(numero)
+
+
+##TEORIA##
+
+
+# Operadores
+
+# Tipos de Dados
+	- Numerico
+	- Caracter
+	- Numeros Complexos
+	- Lógicos
+	- Valores Faltantes e especiais
+	 	NA  - Not Avaible
+	 	NaN - Not a Number
+	 	Inf - (mais infinito)
+		-Inf - (menos infinito)
+
+# Variaveis
+
+
+
